@@ -145,6 +145,6 @@ app.post('/anular', (req, res) => { // Notar que WebPay no permite anular RedCom
 });
 
 
-app.listen(proccess.env.PORT, () => {
+app.listen(process.env.PORT, () => {
     console.log('Server OK')
 });
