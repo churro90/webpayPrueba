@@ -3,9 +3,9 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const pem = require('pem');
- pem.config({
-    pathOpenSSL: 'C:/GnuWin32/bin/openssl'
-}); 
+ //pem.config({
+  //  pathOpenSSL: 'C:/GnuWin32/bin/openssl'
+// }); 
 const caught = require('caught');
 let transactions = {};
 
